@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background: linear-gradient(to right, #333, #444);
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+header ul li {
+  margin-left: 20px;
+}
+header ul li:hover {
+  cursor: pointer;
+}
+
+section {
+  background: linear-gradient(to bottom, #33333381, #22222277),
+    url("https://source.unsplash.com/QeVmJxZOv3k") center center/auto no-repeat;
+  height: 80vh;
+  color: #fff;
+}
+
+section h1,
+p {
+  text-align: center;
+}
+section h1 {
+  padding-top: 20vh;
+  font-size: 4rem;
+}
+section p {
+  font-size: 1.6rem;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+section button {
+  height: 80px;
+  width: 300px;
+  font-size: 1.6rem;
+  margin: 20px;
+  background: linear-gradient(#41eb0e, #f3f707);
+  color: #ffffff;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+section button:hover {
+  cursor: pointer;
+  background: linear-gradient(#3bd40d, #d9dd06);
+}
+footer {
+  background: #333;
+  color: #fff;
+  height: 20vh;
+  font-size: 0.9rem;
+}
+
+footer p:first-child {
+  padding-top: 20px;
+}
