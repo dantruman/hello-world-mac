@@ -55,10 +55,11 @@ section p {
   justify-content: center;
 }
 section button {
-  height: 80px;
+  height: 60px;
   width: 300px;
   font-size: 1.6rem;
   margin: 20px;
+  border: none;
   background: linear-gradient(#41eb0e, #f3f707);
   color: #ffffff;
   font-weight: 300;
