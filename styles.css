@@ -55,19 +55,20 @@ section p {
   justify-content: center;
 }
 section button {
-  height: 60px;
-  width: 300px;
+  height: 50px;
+  width: 250px;
   font-size: 1.6rem;
-  margin: 20px;
+  margin: 50px 0;
   border: none;
-  background: linear-gradient(#41eb0e, #f3f707);
+  background: linear-gradient(#3bd40d, #d9dd06);
   color: #ffffff;
   font-weight: 300;
   text-transform: uppercase;
+  border-radius: 5px;
 }
 section button:hover {
   cursor: pointer;
-  background: linear-gradient(#3bd40d, #d9dd06);
+  background: linear-gradient(#37c50c, #c5c906);
 }
 footer {
   background: #333;
