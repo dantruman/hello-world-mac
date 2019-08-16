@@ -33,7 +33,7 @@ header ul li:hover {
 }
 
 section {
-  background: linear-gradient(to bottom, #33333381, #22222277),
+  background: linear-gradient(to bottom, #52505081, #2222224b),
     url("https://source.unsplash.com/QeVmJxZOv3k") center center/auto no-repeat;
   height: 80vh;
   color: #fff;
