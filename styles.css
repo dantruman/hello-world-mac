@@ -33,13 +33,8 @@ header ul li:hover {
 }
 
 section {
-<<<<<<< HEAD
-  background: linear-gradient(to bottom, #52505081, #2222224b),
-    url("https://source.unsplash.com/QeVmJxZOv3k") center center/auto no-repeat;
-=======
   background: linear-gradient(to bottom, #33333381, #22222277),
     url("https://source.unsplash.com/QeVmJxZOv3k") center center/cover no-repeat;
->>>>>>> 5b54813f70a700c1840978b3cb004be06c8a38ee
   height: 80vh;
   color: #fff;
 }
