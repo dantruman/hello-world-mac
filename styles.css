@@ -107,6 +107,10 @@ footer {
   background: #000;
   border-top: 1px solid #38cdec;
   padding: 15px 0;
-  color: #fff;
-  font-size: 0.9rem;
+  color: #cecece;
+  font-size: 0.8rem;
+}
+
+.fa-apple:hover {
+  color: #38cdec;
 }
