@@ -10,9 +10,13 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 10vh;
+  padding: 5px 0;
   background: linear-gradient(to right, #333, #444);
   color: #fff;
+  border-bottom: 1px solid #38cdec;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
 }
 
 header h1 {
@@ -30,12 +34,13 @@ header ul li {
 }
 header ul li:hover {
   cursor: pointer;
+  color: #38cdec;
 }
 
 section {
   background: linear-gradient(to bottom, #33333381, #22222277),
-    url("https://source.unsplash.com/QeVmJxZOv3k") center center/cover no-repeat;
-  height: 80vh;
+    url("https://source.unsplash.com/eBRTYyjwpRY") center center/cover no-repeat;
+  height: 100vh;
   color: #fff;
 }
 
@@ -44,7 +49,7 @@ p {
   text-align: center;
 }
 section h1 {
-  padding-top: 20vh;
+  padding-top: 40vh;
   font-size: 4rem;
 }
 section p {
@@ -60,23 +65,48 @@ section button {
   margin: 50px 0;
   padding: 10px 20px;
   border: none;
-  background: radial-gradient(#3bd40d, #d9dd06);
+  background-image: linear-gradient(
+    to left top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
   color: #ffffff;
   font-weight: 300;
   text-transform: uppercase;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 section button:hover {
   cursor: pointer;
-  background: radial-gradient(#37c50c, #c5c906);
+  background-image: linear-gradient(
+    to left top,
+    #ba5f93,
+    #b26aa6,
+    #a775b6,
+    #9980c3,
+    #8b8bcc,
+    #7c97d7,
+    #6da3df,
+    #5daee4,
+    #47beeb,
+    #38cdec,
+    #3edce8,
+    #57e9e0
+  );
 }
 footer {
-  background: #333;
+  background: #000;
+  border-top: 1px solid #38cdec;
+  padding: 15px 0;
   color: #fff;
-  height: 20vh;
   font-size: 0.9rem;
-}
-
-footer p:first-child {
-  padding-top: 20px;
 }
