@@ -11,7 +11,7 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 5px 0;
-  background: linear-gradient(to right, #333, #444);
+  background: linear-gradient(to right, #1d1d1d, #252525);
   color: #fff;
   border-bottom: 1px solid #38cdec;
   position: fixed;
