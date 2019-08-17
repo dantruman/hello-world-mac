@@ -20,7 +20,7 @@ header {
 }
 
 header h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 header ul {
@@ -39,7 +39,7 @@ header ul li:hover {
 
 section {
   background: linear-gradient(to bottom, #33333381, #22222277),
-    url("https://source.unsplash.com/eBRTYyjwpRY") center center/cover no-repeat;
+    url("https://source.unsplash.com/mP7aPSUm7aE") center center/cover no-repeat;
   height: 100vh;
   color: #fff;
 }
@@ -49,11 +49,12 @@ p {
   text-align: center;
 }
 section h1 {
+  letter-spacing: 5px;
   padding-top: 40vh;
   font-size: 4rem;
 }
 section p {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 .btn-container {
   display: flex;
@@ -113,4 +114,12 @@ footer {
 
 .fa-apple:hover {
   color: #38cdec;
+}
+
+hr {
+  width: 50%;
+  margin: 0 auto;
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, #ba5f93, #38cdec, #ba5f93);
 }
